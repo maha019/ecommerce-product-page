@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+nav{
+  display: flex;
+  margin: 50px 120px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav1,#nav2{
+  display: flex;
+}
+#nav2{
+   
+}
+
+#avatar{
+  height: 40px;
+  margin: 0 20px;
+}
+#avatar:hover{
+  box-shadow: 0px 0px 0px 2px hsl(26, 100%, 55%);
+  border-radius: 100px;
+}
+#cart{
+  margin: 10px 30px;
+  fill: hsl(219, 9%, 45%);
+}
+
+#cart:hover{
+  
+  fill: hsl(0, 0%, 0%);
+  
+
+}
+li{
+  list-style: none;
+  font-size: 16px;
+  margin: 0px 15px;
+  color: hsl(219, 9%, 45%);
+  
+}
+li:hover{
+  color: rgb(0, 0, 0);
+}
+hr{
+  margin: 0 120px;
+  color: hsl(219, 9%, 45%);
+  border: none;
+  border-top: solid 1px;
+
+  
+  
+}
+main{
+  position: relative;
+}
+.main {
+  display: flex; 
+  padding: 100px;
+}
+.main1 {
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+}
+#img-section{
+  text-align: center;
+}
+#thumbnail-box{
+  
+}
+.thumbnail{
+  height: 79px;
+  margin: 10.5px;
+  border-radius: 10px;
+}
+.thumbnail:hover{
+  opacity: 75%;
+}
+#details-section{
+  padding: 0 75px;
+}
+
+#main-image {
+  height: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: ease-in-out 4s;
+}
+#company-name {
+  color: hsl(26, 100%, 55%);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+h1{
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+#product-description {
+  color: hsl(219, 9%, 45%);
+  padding: 20px 0 0;
+  letter-spacing: 0.5px;
+}
+#discount-price {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#real-price{
+  text-decoration: line-through;
+  color: hsl(220, 14%, 75%);
+  margin-bottom: 40px;
+}
+#amount {
+  background-color: hsl(223, 64%, 98%);
+  display: flex;
+  padding-top: 10px;
+  border-radius: 5px;
+  row-gap: 10px;
+}
+#buttons {
+  display: flex;
+}
+button {
+  border: none;
+  padding: 0 15px;
+  background-color: transparent;
+  
+}
+button:focus{
+  outline: none !important;
+}
+button:hover{
+  opacity: 75%;
+}
+h4{
+  margin:5px 20px;
+}
+
+#add-to-cart {
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 5px;
+  margin: 0 10px;
+  padding: 12px 70px;
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+#add-to-cart:hover{
+  opacity: 75%;
+}
+#discount-box{
+  display: flex;
+  
+}
+
+#discount {
+  color: hsl(26, 100%, 55%);
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 5px;
+  width: fit-content;
+  padding: 3px 6px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+#product-name {
+  font-weight: 700;
+}
+
+
+
+#cart-box{
+  position: absolute;
+  right:90px;
+  top: -20px;
+  
+  width: 340px;
+  box-shadow: 0px 0px 20px 1px hsl(219, 9%, 45%);
+  border-radius: 5px;
+  background-color: white;
+  display: none;
+}
+#cart-hr{
+  margin: 0;
+}
+#empty-cart-message{
+  margin: 75px;
+  font-weight: 700;
+  color: hsl(219, 9%, 45%);
+}
+#cart-title{
+  padding: 10px 0;
+}
+#cart-product-box{
+  display: flex;
+  justify-content: left ;
+  padding : 0px;
+  gap: 10px;
+  align-items: center;
+}
+#cart-product-image {
+  height: 50px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+#cart-list{
+ padding: 0;
+}
+h3{
+  padding: 0;
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+p{
+  margin: 0 ;
+  padding: 0;
+  letter-spacing: 0.5px;
+}
+#delete-div{
+  margin-left: 10px;
+}
+
+
